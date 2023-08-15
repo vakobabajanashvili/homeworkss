@@ -1,9 +1,9 @@
 workout_level = int(input("რამდენი დღე ვარჯიშობ კვირაში?: "))
 
-if workout_level < 1 or 2:
+if workout_level >= 1:
     print("ცოტას ვარჯიშობ")
 
-elif workout_level < 3 or 4:
+elif workout_level >= 3:
     print("საშუალოდ ვარჯიშობ")
 
 else:
