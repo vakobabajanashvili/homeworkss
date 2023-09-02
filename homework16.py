@@ -41,3 +41,8 @@ def kubikuri():
         left(90)
 kubikuri()
 exitonclick()
+
+kvadratis_gverdi = int(input("შეიყვანეთ კვადრატის გვერდი პერიმეტრის გამოსათვლელად: "))
+kvadratis_gverdi1 = int(input("შეიყვანეთ კვადრატის გვერდი ფართობის გამოსათვლელად: "))
+print("კვადრატის პერიმეტრია ", kvadratis_gverdi + kvadratis_gverdi)
+print("კვადრატის ფართობია ", kvadratis_gverdi1 * kvadratis_gverdi1)
